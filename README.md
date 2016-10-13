@@ -1,6 +1,6 @@
 # RecyclerView Toolkit
 
-RecyclerView Toolkit provide ready to use RecyclerView components.
+RecyclerView Toolkit provides ready to use RecyclerView components.
 
 ## Download
 
