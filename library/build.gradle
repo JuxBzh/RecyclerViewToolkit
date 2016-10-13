@@ -35,7 +35,7 @@ ext {
     siteUrl = 'https://github.com/JuxBzh/RecyclerViewToolkit'
     gitUrl = 'https://github.com/JuxBzh/RecyclerViewToolkit.git'
 
-    libraryVersion = '1.0.0'
+    libraryVersion = '0.1.0'
 
     developerId = 'juxbzh'
     developerName = 'Julien Pedron'
