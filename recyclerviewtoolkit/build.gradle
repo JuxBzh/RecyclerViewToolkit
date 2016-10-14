@@ -10,15 +10,9 @@ android {
 
         versionName VERSION_NAME as String
     }
-
-    buildTypes {
-        debug {
-        }
-    }
 }
 
 dependencies {
-    compile 'com.android.support:appcompat-v7:24.2.1'
     compile 'com.android.support:recyclerview-v7:24.2.1'
 }
 
@@ -35,7 +29,7 @@ ext {
     siteUrl = 'https://github.com/JuxBzh/RecyclerViewToolkit'
     gitUrl = 'https://github.com/JuxBzh/RecyclerViewToolkit.git'
 
-    libraryVersion = '0.1.0'
+    libraryVersion = VERSION_NAME as String
 
     developerId = 'juxbzh'
     developerName = 'Julien Pedron'
@@ -46,5 +40,4 @@ ext {
     allLicenses = ["Apache-2.0"]
 }
 
-apply from: '../maven.gradle'
-apply from: '../bintray.gradle'
+apply from: '../deploy.gradle'
