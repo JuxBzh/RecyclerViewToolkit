@@ -35,12 +35,12 @@ Here is a list of the components available in the library
  - **MultipleChoiceViewHolder**: The ViewHolder that is used by the MultipleChoiceAdapter
 
 ### Decoration
- - **GridSpacingItemDecoration**: An implementation of RecyclerView.ItemDecoration to add spacing between items displayed in Grid layout
+ - **GridSpacingItemDecoration**: An implementation of RecyclerView.ItemDecoration to add spacing between items displayed in a grid layout
 
 ## License
 
 
-    Copyright 2016 Julien Pédron
+    Copyright 2016 Julien Pedron
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
