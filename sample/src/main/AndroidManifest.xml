@@ -26,6 +26,16 @@
                     android:name="android.support.PARENT_ACTIVITY"
                     android:value=".HomeActivity"/>
         </activity>
+
+        <activity
+                android:name=".MultipleChoiceActivity"
+                android:label="@string/activity_multiple_choice"
+                android:parentActivityName=".HomeActivity">
+
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value=".HomeActivity"/>
+        </activity>
     </application>
 
 </manifest>

@@ -41,8 +41,8 @@ public class HomeActivity extends BaseActivity {
                 startActivity(intent);
                 break;
             case 1: // Multiple choice adapter
-                Snackbar.make(findViewById(R.id.coordinator_layout), "Not implemented",
-                        BaseTransientBottomBar.LENGTH_SHORT).show();
+                intent = new Intent(this, MultipleChoiceActivity.class);
+                startActivity(intent);
                 break;
             case 2: // Header and Footer adapter
                 Snackbar.make(findViewById(R.id.coordinator_layout), "Not implemented",

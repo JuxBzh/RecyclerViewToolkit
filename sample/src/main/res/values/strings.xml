@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">RecyclerViewToolkit</string>
     <string name="activity_single_choice">Single choice adapter</string>
+    <string name="activity_multiple_choice">Multiple choice adapter</string>
 </resources>
