@@ -27,12 +27,14 @@ Here is a list of the components available in the library
  - **HeaderFooterBaseAdapter**: An extension of BaseAdapter that provides support for an optional HEADER and/or FOOTER item
  - **MultipleChoiceAdapter**: An adapter that displays a list of non mutually exclusive items
  - **SingleChoiceAdapter**: An adapter that displays a list of mutually exclusive items
+ - **SimpleAdapter**: An adapter that displays a list of String
 
 ### ViewHolder
 
  - **BaseViewHolder**: The base implementation of RecyclerView.ViewHolder to be provides a callback interface to listen for item selection
- - **SingleChoiceViewHolder**: The ViewHolder that is used by the SingleChoiceAdapter
- - **MultipleChoiceViewHolder**: The ViewHolder that is used by the MultipleChoiceAdapter
+ - **SingleChoiceViewHolder**: A ViewHolder holding a CheckTextView with a single choice check mark
+ - **MultipleChoiceViewHolder**: A ViewHolder holding a CheckTextView with a multiple choice check mark
+ - **SimpleViewHolder**: A simple ViewHolder holding a TextView
 
 ### Decoration
  - **GridSpacingItemDecoration**: An implementation of RecyclerView.ItemDecoration to add spacing between items displayed in a grid layout

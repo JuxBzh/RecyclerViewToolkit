@@ -1,14 +1,18 @@
-package com.jux.recyclerviewtoolkitsample;
+package com.jux.recyclerviewtoolkit.adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.jux.recyclerviewtoolkit.adapter.BaseAdapter;
+import com.jux.recyclerviewtoolkit.R;
 import com.jux.recyclerviewtoolkit.viewholder.BaseViewHolder;
+import com.jux.recyclerviewtoolkit.viewholder.SimpleViewHolder;
 
-
+/**
+ * A {@link BaseAdapter} that displays a list of {@link String}.<br/>
+ * NB: Each cell provides a selection feedback
+ */
 public class SimpleAdapter extends BaseAdapter<String> {
 
     public SimpleAdapter(Context context) {
@@ -25,7 +29,7 @@ public class SimpleAdapter extends BaseAdapter<String> {
     @Override
     public BaseViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View itemView = LayoutInflater.from(mContext).
-                inflate(android.R.layout.simple_list_item_1, parent, false);
+                inflate(R.layout.simple_list_item, parent, false);
         return new SimpleViewHolder(itemView, this);
     }
 }

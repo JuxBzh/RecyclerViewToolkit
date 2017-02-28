@@ -8,6 +8,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 
 import com.jux.recyclerviewtoolkit.adapter.MultipleChoiceModeAdapter;
+import com.jux.recyclerviewtoolkit.adapter.SimpleAdapter;
 
 import java.util.Arrays;
 import java.util.List;
@@ -15,8 +16,8 @@ import java.util.List;
 public class HomeActivity extends AppCompatActivity implements MultipleChoiceModeAdapter.OnItemClickListener {
 
     private static final List<String> SECTIONS =
-            Arrays.asList("Single choice", "Multiple choice", "Header and Footer", "Cursor adapter",
-                    "Interactive element");
+            Arrays.asList("Single choice adapter", "Multiple choice adapter", "Header and Footer adapter",
+                    "Cursor adapter", "Interactive element");
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
