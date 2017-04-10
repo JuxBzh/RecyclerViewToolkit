@@ -7,7 +7,7 @@ RecyclerView Toolkit provides ready to use RecyclerView components.
 Using gradle:
 ```gradle
 dependencies {
-    compile 'com.juxbzh:recyclerviewtoolkit:0.3.0'
+    compile 'com.juxbzh:recyclerviewtoolkit:0.3.1'
 }
 ```
 
