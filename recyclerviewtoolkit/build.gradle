@@ -1,19 +1,23 @@
 apply plugin: 'com.android.library'
 
+ext {
+    libraryVersionName = '0.3.2'
+}
+
 android {
-    compileSdkVersion COMPILE_SDK_VERSION as int
-    buildToolsVersion BUILD_TOOLS_VERSION as String
+    compileSdkVersion 25
+    buildToolsVersion "25.0.2"
 
     defaultConfig {
-        minSdkVersion MIN_SDK_VERSION as int
-        targetSdkVersion TARGET_SDK_VERSION as int
+        minSdkVersion 16
+        targetSdkVersion 25
 
-        versionName VERSION_NAME as String
+        versionName libraryVersionName
     }
 }
 
 dependencies {
-    compile 'com.android.support:recyclerview-v7:25.3.0'
+    compile 'com.android.support:recyclerview-v7:25.3.1'
 }
 
 ext {
@@ -29,7 +33,7 @@ ext {
     siteUrl = 'https://github.com/JuxBzh/RecyclerViewToolkit'
     gitUrl = 'https://github.com/JuxBzh/RecyclerViewToolkit.git'
 
-    libraryVersion = VERSION_NAME as String
+    libraryVersion = libraryVersionName
 
     developerId = 'juxbzh'
     developerName = 'Julien Pedron'
